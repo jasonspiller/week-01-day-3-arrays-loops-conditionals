@@ -125,3 +125,20 @@ for (let i = 0; i < 1000; i++) {
 	}
 }
 console.log(sumOfDivisibleBy3And5);
+
+
+for (let i = 0; i <= 7; i++) {
+	let triangleLayer = "";
+	for (let j = 0; j < i; j++) {
+		triangleLayer += "*";
+	}
+	console.log(triangleLayer);
+}
+
+for (let i = 6; i >= 1; i--) {
+	let triangleLayer = "";
+	for (let j = 0; j < i; j++) {
+		triangleLayer += "*";
+	}
+	console.log(triangleLayer);
+}
