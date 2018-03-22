@@ -20,7 +20,7 @@ let responses = [
 
 for (let i = 1; i <= 20; i++) {
 	if (i%2 === 0) {
-		console.log(responses[Math.floor((Math.random() * 3) + 0)]);
+		console.log(responses[Math.floor(Math.random() * 3)]);
 	} else {
 		console.log("Love me, pet me! HSSSSSS!");
 	}
@@ -135,10 +135,14 @@ for (let i = 0; i <= 7; i++) {
 	console.log(triangleLayer);
 }
 
-for (let i = 6; i >= 1; i--) {
-	let triangleLayer = "";
-	for (let j = 0; j < i; j++) {
-		triangleLayer += "*";
-	}
-	console.log(triangleLayer);
-}
+
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+// let sum = 0;
+// for (var i = 0; i < nums.length; i++) {
+// 	sum += nums[i];
+//
+// }
+// console.log(sum);
+// console.log(nums.length);
+console.log(Math.floor(nums.length/2));
