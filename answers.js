@@ -115,3 +115,13 @@ for (let i = 0; i < thomsCloset.length; i++) {
 		console.log(thomsCloset[i][j]);
 	}
 }
+
+
+let sumOfDivisibleBy3And5=0;
+
+for (let i = 0; i < 1000; i++) {
+	if (i%3===0 || i%5===0) {
+		sumOfDivisibleBy3And5 += i;
+	}
+}
+console.log(sumOfDivisibleBy3And5);
