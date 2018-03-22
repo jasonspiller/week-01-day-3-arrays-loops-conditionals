@@ -104,3 +104,14 @@ console.log(thomsCloset);
 console.log("Kristyn's amazing outfit consists of " + kristynsCloset[0] + ", " + kristynsCloset[3] + ' and a ' + kristynsCloset[2] + '.');
 console.log("Thom likes wearing his " + thomsCloset[0][1] + " with his " + thomsCloset[1][0] + ".");
 console.log("Thom sometimes likes to eat " + kristynsCloset[5] + " while wearing his " + thomsCloset[1][2] + ".");
+
+
+for (let i = 0; i < kristynsCloset.length; i++) {
+	console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
+
+for (let i = 0; i < thomsCloset.length; i++) {
+	for (let j = 0; j < thomsCloset[i].length; j++) {
+		console.log(thomsCloset[i][j]);
+	}
+}
