@@ -52,3 +52,11 @@ matt[2] = 'Gotham City';
 // Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
 kristyn.pop();
 kristyn.push('Brooklyn');
+
+
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+let TMNT = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// Use a for loop to call toUpperCase() on each of them and print out the result.
+for (let i = 0; i < TMNT.length; i++) {
+	console.log(TMNT[i].toUpperCase());
+}
